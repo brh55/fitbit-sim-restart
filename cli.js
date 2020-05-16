@@ -26,4 +26,4 @@ const cli = meow(`
 	}
 );
 
-console.log(fitbitSimRestart(cli.flags));
+fitbitSimRestart(cli.flags);
