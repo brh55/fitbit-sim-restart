@@ -25,3 +25,6 @@ $ fitbit-sim-restart --help
 
 $ fitbit-sim-restart
 ```
+
+## License
+Ⓒ MIT
