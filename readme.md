@@ -1,6 +1,8 @@
 # fitbit-sim-restart
 > A simple CLI helper to restart the Fitbit OS Simulator
 
+Currently only supports Mac OS, feel free to contribute and add other Operating Systems.
+
 ## Install
 ```
 $ npm install -g fitbit-sim-restart
