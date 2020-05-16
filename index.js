@@ -1,9 +1,14 @@
 'use strict';
 
-const { execSync } = require("child_process");
+const {execSync} = require('child_process');
+const {platform} = require('os');
 
 module.exports = ({log}) => {
-	const appName = "Fitbit OS Simulator";
+	if (platform !== 'darwin') {
+		throw new Error('Currently this only supports Mac OS, feel free to contribute and add other platforms');
+	}
+
+	const appName = 'Fitbit OS Simulator';
 	// Supporting Mac OS, will take contributions here:
 	execSync(`osascript -e 'quit app "${appName}"'`);
 	if (log) {

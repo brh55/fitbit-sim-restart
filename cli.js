@@ -17,13 +17,12 @@ const cli = meow(`
 	  complete
 	  $ fitbit-sim-restart
 `, {
-		flags: {
-			log: {
-				type: 'boolean',
-				alias: 'l'
-			}
+	flags: {
+		log: {
+			type: 'boolean',
+			alias: 'l'
 		}
 	}
-);
+});
 
 fitbitSimRestart(cli.flags);
