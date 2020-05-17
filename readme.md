@@ -3,6 +3,8 @@
 
 Currently only supports Mac OS, feel free to contribute and add other Operating Systems.
 
+![demo](http://g.recordit.co/QLEGqwuudj.gif)
+
 ## Install
 ```
 $ npm install -g fitbit-sim-restart
