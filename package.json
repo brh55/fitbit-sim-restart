@@ -1,6 +1,6 @@
 {
 	"name": "fitbit-sim-restart",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Simple little CLI to restart the Fitbit OS Simulator after a crash",
 	"license": "MIT",
 	"repository": "brh55/fitbit-sim-restart",

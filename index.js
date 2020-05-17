@@ -4,7 +4,7 @@ const {execSync} = require('child_process');
 const {platform} = require('os');
 
 module.exports = ({log}) => {
-	if (platform !== 'darwin') {
+	if (platform() !== 'darwin') {
 		throw new Error('Currently this only supports Mac OS, feel free to contribute and add other platforms');
 	}
 
